@@ -36,6 +36,6 @@ public class Calculadora {
         System.out.println("El valor de operación suma es: " + sumar(valor1,valor2));
         System.out.println("El valor de operación multiplicacion es: " + multiplicar(valor1,valor2));
         System.out.println("El valor de operación resta es: " + restar(valor1,valor2));
-        System.out.println("El valor de operación dividir es: " + dividir(valor1,valor2));
+        System.out.println("El valor de operación divición es: " + dividir(valor1,valor2));
     }
 }
