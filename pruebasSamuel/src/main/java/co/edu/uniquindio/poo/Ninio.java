@@ -4,7 +4,8 @@ public class Ninio {
 
     private String nombres;
     private int edad;
-    private String genero, documento;
+    private String genero;
+    private String documento;
     private String alergias;
     private String nombreAcudiente;
     private String numeroContactoAcudiente;
@@ -45,6 +46,14 @@ public class Ninio {
         this.genero = genero;
     }
 
+    public String getDocumento(){
+        return documento;
+    }
+
+    public void setDocumento(String documento){
+        this.documento = documento;
+    }
+
     public String getAlergias(){
         return alergias;
     }
@@ -77,6 +86,18 @@ public class Ninio {
         this.ID = ID;
     }
 
+    public String toString(){
+        return "Ninio{" +
+                "Nombres = " +  nombres + '\'' +
+                "Edad = " + edad + '\''+
+                "Genero = " + genero + '\''+
+                "Documento" + documento + '\''+
+                "Alergias del niño = " + alergias + '\''+
+                "Nombre del Acudiente = " + nombreAcudiente + '\''+
+                "Número de contacto del acudiente = " + numeroContactoAcudiente + '\''+
+                "ID = " + ID +'\'' + '}';
+
+
+    }
+
 }
-
-
